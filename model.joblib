@@ -1,6 +1,0 @@
-import joblib
-joblib.dump(model, 'Heart_model.pkl')
-joblib.dump(scalar, 'scaler.pkl')
-
-
-
