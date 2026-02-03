@@ -4,7 +4,7 @@ import joblib
 st.write("job lib imported successfully ")
 
 # Load Heart Failure model and scaler
-heart_model = joblib.load('heart_model.pkl')
+heart_model = joblib.load('Heart_model.pkl')
 heart_scaler = joblib.load('scaler.pkl')
 
 st.title("Heart Failure Prediction using ML")
@@ -42,6 +42,7 @@ if st.button("Heart Failure"):
     else:
         st.success("Low Risk of Heart Failure")
     
+
 
 
         
